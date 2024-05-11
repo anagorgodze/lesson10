@@ -1,0 +1,38 @@
+@media (max-width: 1230px) {
+    .container {
+        width: 95%;
+    }
+}
+@media (max-width: 800px) {
+    .greece h1 {
+        font-size: 39px;
+    }
+    h2 {
+        font-size: 10px;
+    }
+    .cards {
+        justify-content: space-around;
+    }
+}
+
+@media (max-width: 650px) {
+    .fa-bars {
+        display: block;
+    }
+    nav {
+        display: none;
+    }
+    .threepart {
+        flex-direction: column;
+    }
+    .card {
+        width: 90%;
+    }
+}
+@media (max-width:465px) {
+    section {
+        background-position: center;
+        width: 80%;
+    }
+    
+}

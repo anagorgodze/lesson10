@@ -1,0 +1,163 @@
+.container {
+    max-width: 1420px;
+    background-color: white;
+    /* margin: 0 auto;
+    padding: 0 20px; */
+    width: 100%;
+    margin: 0 auto;
+  }
+
+
+.headerdiv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+ 
+.logo {
+    /* width: 33px;
+    height: 42px; 
+    */
+    font-size: 38px;
+}
+
+nav {
+    display: flex;
+    margin-bottom: 18px;
+    margin-top: 24px;
+  
+} 
+ul {
+    display: flex;
+    gap: 50px;
+    list-style:none ;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration: none;
+
+   
+}
+li a {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 17px;
+    
+}
+.home{
+    margin-left: 676px;
+}
+
+
+.fa-bars{
+    color:#636060;
+    font-size: 38px;
+    display: none;
+}
+
+
+section {
+    background-image: url(../images/greece.png);
+    background-color: lightblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 606px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+.greece {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 31px;
+
+  }
+  
+
+h1 {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 79px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+h2 {
+    color: #FFF;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.threepart
+{
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+    margin-top: 84px;
+}
+.discover 
+{
+    display: flex;
+    flex-direction: column;
+    width: 318px;
+    margin-left: 100px;
+    gap: 20px;
+}
+h3 {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+h4 {
+    color: #010101;
+    font-family: Helvetica;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 17px;
+}
+p {
+    color: #636060;
+    font-family: Helvetica;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 235px;
+}
+h5 {
+    color: #343232;
+    font-family: Helvetica;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 33px;
+  margin-bottom: 140px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
